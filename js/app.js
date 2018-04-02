@@ -56,6 +56,7 @@
         // 清空文本框
         this.inputText='';
       },
+      
       // 删除单个任务项
       removeTodo(index){
         this.todos.splice(index,1);
